@@ -1160,7 +1160,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./media/theme/Cheems-bot.mp4"),
+"thumbnail": fs.readFileSync("./media/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${websitex}`
 }
@@ -1827,7 +1827,7 @@ break
                  Zex.sendTextWithMentions(m.chat, teks, m)
              }
              break
-             case 'ping': case 'botstatus': case 'statusbot': case 'p': {
+             case 'ping': case 'botstatus': case 'statusbot': {
                 const used = process.memoryUsage()
                 const cpus = os.cpus().map(cpu => {
                     cpu.total = Object.keys(cpu.times).reduce((last, type) => last + cpu.times[type], 0)

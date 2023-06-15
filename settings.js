@@ -35,7 +35,7 @@ global.author = "OneeChan Bakaa!!"
 global.creator = "6281219244302@s.whatsapp.net"
 global.prefa = ['','!','.','#','&','`']
 global.hituet = 0
-global.apikeyai = '' //Apikey OpenAi Kalian
+global.apikeyai = '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' //Apikey OpenAi
 
 //media target
 global.thum = fs.readFileSync("./media/theme/cheemspic.jpg") //ur thumb pic
