@@ -51,7 +51,7 @@ async function ZexBot() {
         })
         store.bind(Zex.ev)
 
-console.log(color(figlet.textSync(`ZEX - ID`, {
+console.log(color(figlet.textSync(`SHIRO - ID`, {
 font: 'Standard',
 horizontalLayout: 'default',
 vertivalLayout: 'default',
@@ -452,7 +452,7 @@ else if (reason === DisconnectReason.loggedOut) { console.log(`Device Logged Out
 else if (reason === DisconnectReason.restartRequired) { console.log("Restart Required, Restarting..."); ZexBot(); }
 else if (reason === DisconnectReason.timedOut) { console.log("Connection TimedOut, Reconnecting..."); ZexBot(); }
 else Zex.end(`Unknown DisconnectReason: ${reason}|${connection}`)
-} else if (connection === "open") { Zex.sendMessage(owner + "@s.whatsapp.net", { text: `*Bot Online!*\n\n\n_Don't forget to support, bro :)_\n\n • YouTube: https://youtube.com/@kizakixd\n\n • GitHub: https://github.com/KiZakiXD\n\n • Instsgram: https://instagram.com/iamkizakixd\n\n • Group : https://chat.whatsapp.com/GMcv3SpmwOz9S6aQzYmUD1\n\n\n_*Thanks to*_\n_*My God*_\n_*Myself*_\n_*Family*_\n_*Friends Who Helped Me Assemble This Script*_` }); }
+} else if (connection === "open") { Zex.sendMessage(owner + "@s.whatsapp.net", { text: `*Bot Online!*\n*Haii shiro-chan owner!!*` }); }
 console.log('Connected...', update)
 })
 

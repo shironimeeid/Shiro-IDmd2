@@ -4413,6 +4413,12 @@ if (!AntiNsfw) return replygcxeon(mess.nsfw)
     waifudd = await axios.get(`https://waifu.pics/api/nsfw/neko`)
 Zex.sendMessage(m.chat, { caption: mess.success, image: { url:waifudd.data.url } }, { quoted: m })
 break
+case 'neko':
+    if (!m.isGroup) return replygcxeon(mess.group)
+    if (!AntiNsfw) return replygcxeon(mess.nsfw)
+        waifudd = await axios.get(`https://waifu.pics/api/sfw/neko`)
+    Zex.sendMessage(m.chat, { caption: mess.success, image: { url:waifudd.data.url } }, { quoted: m })
+    break
 case 'hentai-waifu' :
 case 'nwaifu' :
 if (!m.isGroup) return replygcxeon(mess.group)
